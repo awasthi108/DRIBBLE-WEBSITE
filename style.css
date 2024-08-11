@@ -104,15 +104,15 @@ body {
   left: 50%;
   font-size: 15px;
   color: white;
-  background: black;
+  background: rgb(222, 113, 113);
   font-weight: 600;
   border: none;
-  border-radius: 50px;
+  border-radius: 30px;
   margin-top: 27px;
 }
 #bottom {
   height: 350px;
-  margin-top: 15px;
+  margin-top: 23px;
   padding: 5px;
   position: relative;
   width: 100%;
@@ -129,6 +129,18 @@ body {
   position: relative;
   background-color: burlywood;
   overflow: hidden;
+  animation-name: anime;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes anime {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(calc( -100% - 10px ));
+  }
 }
 #bottom::-webkit-scrollbar {
   display: none;
