@@ -130,7 +130,7 @@ body {
   background-color: burlywood;
   overflow: hidden;
   animation-name: anime;
-  animation-duration: 20s;
+  animation-duration: 17s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
